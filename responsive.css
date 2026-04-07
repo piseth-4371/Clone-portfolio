@@ -1,0 +1,11 @@
+@media only screen and (max-width:768px){
+    /* navbar start  */
+    .nav{
+        /* height: 87px; */
+        justify-content:space-between;
+    }
+    .icon-menu{
+        display: block;
+    }
+    /* navbar end  */
+}

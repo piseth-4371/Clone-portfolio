@@ -1,0 +1,32 @@
+@font-face {
+    font-family: BalooThambi2-Bold;
+    src: url(../fonts/BalooThambi2-Bold.ttf);
+}
+
+@font-face {
+    font-family: BalooThambi2-Regular;
+    src: url(../fonts/BalooThambi2-Regular.ttf);
+}
+@font-face {
+    font-family: BalooThambi2-Medium;
+    src: url(../fonts/BalooThambi2-Medium.ttf);
+}
+
+*{
+    font-family: BalooThambi2-Regular;
+    color: black;
+}
+.nav a {
+    font-family: BalooThambi2-Bold;
+    font-size: 26px;
+}
+
+.footer p{
+    font-family: BalooThambi2-Medium;
+    font-size: 17px;   
+}
+.footer a{
+    font-family: BalooThambi2-Bold;
+    font-size: 16px;   
+}
+
