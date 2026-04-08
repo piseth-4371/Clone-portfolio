@@ -16,11 +16,32 @@
     font-family: BalooThambi2-Regular;
     color: black;
 }
+/* navbar */
 .nav a {
     font-family: BalooThambi2-Bold;
     font-size: 26px;
 }
 
+/* header  */
+.header-box h1{
+    font-family: BalooThambi2-Bold;
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+.header-box p, .header-box p a{
+    font-family: BalooThambi2-Medium;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.header-box p a{
+    font-weight: 600;
+}
+.btn-header{
+    font-family: BalooThambi2-Bold;
+    font-size: 1.1rem;
+}
+
+/* footer */
 .footer p{
     font-family: BalooThambi2-Medium;
     font-size: 17px;   

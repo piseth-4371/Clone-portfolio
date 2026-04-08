@@ -1,11 +1,33 @@
-@media only screen and (max-width:768px){
+@media only screen and (max-width:777px){
     /* navbar start  */
-    .nav{
-        /* height: 87px; */
+    .nav-inner{
+        height: auto;
         justify-content:space-between;
+    }
+    .nav-link{
+        top:69px;
+        position: absolute;
+        flex-direction: column;
+        width: inherit;
+        display: none;
+    }
+    .nav-link.active{
+        display: block;
+    }
+    .nav-link li {
+        width: inherit;
+    }
+    .nav-link li a{
+        border-bottom: 4px solid black;
+        background-color: #C4C4C4;
+        width: inherit;
+        align-items: center;
+        justify-content: center;
     }
     .icon-menu{
         display: block;
     }
     /* navbar end  */
+
+    /* header start  */
 }
