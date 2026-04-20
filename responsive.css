@@ -28,6 +28,37 @@
         display: block;
     }
     /* navbar end  */
+    .header{
+        padding-top:5vh ;
+        padding-bottom:25vh ;
+    }
+    /* .quicklinks h1, qlinks{
+        width: 400px;   
+    } */
+    .quicklinks{
+        top: 75vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qlinks{
+        flex-direction: column;
+    }
+    .alinks{
+        width:clamp(180px, 50vw, 650px);
+        height: clamp(20px, 6.5vh, 75px );
+        border-left: 4px solid black;
+    }
+    .a3{
+        border-top: none ;
+        border-right: 4px solid black ;
+    }
+    .a1, .a3{
+        border-bottom: none;
+    }
+    
+}
 
-    /* header start  */
+@media screen and (max-width: 576px) {
 }

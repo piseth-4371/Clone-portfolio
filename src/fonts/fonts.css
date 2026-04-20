@@ -25,13 +25,13 @@
 /* header  */
 .header-box h1{
     font-family: BalooThambi2-Bold;
-    font-size: 5vmax;
-    line-height: 5.5vmax;
+    font-size: clamp(3.5rem, 5vw, 8rem);
+    line-height: clamp(3.5rem, 5vw, 8rem);
 }
 .header-box p, .header-box p a{
     font-family: BalooThambi2-Medium;
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: clamp(1.2rem, 1.7vw, 2.5rem);
+    line-height: clamp(1.2rem, 1.7vw, 2.5rem);
 }
 .header-box p a{
     font-weight: 600;
@@ -39,18 +39,18 @@
 }
 .btn-header{
     font-family: BalooThambi2-Bold;
-    font-size: 1.1rem;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
 /* quick */
 .quicklinks h1 {
     font-family: BalooThambi2-Bold;
-    font-size: 2.5rem;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
 }
 .alinks{
     font-family: BalooThambi2-Bold;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 5vw, 1.5rem);
 }
 /* projects  and blog*/
 .projects h1, .blogs h1{
