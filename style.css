@@ -15,7 +15,7 @@ body{
     position: sticky;
     padding: 18px 0 4px 0;
     background-color: black;
-    z-index: 1;
+    z-index: 10;
 }
 .nav-inner{
     width: inherit;
@@ -43,7 +43,7 @@ body{
 }
 .nav-link li a,.icon-logo img, .icon-menu,  .icon-menu img, 
 .header-box p a, .btn-header, .alinks,
-.pro-dec button, .blo-btn button, .blo-btn a, .blogs a{
+.pro-dec button, .blo-btn button, .blo-btn a, .blogs a, .blnext button{
     cursor: url("src/imgs/curser.png"), pointer;
 }
 .icon-menu{
@@ -61,6 +61,10 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 10vh 5vw;
+}
+.pheader{
+    height: auto;
+    display: block;
 }
 .header-box{
     width: clamp(350px, 50%, 600px);
@@ -125,32 +129,47 @@ body{
 
 /* projects start  */
 .projects{
-    width: auto;
+    width: 100%;
+    height: 100%;
     background-image: url(src/imgs/bg.svg);
     background-size: 6px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: space-around;
-    padding: 150px 120px;
+    padding: 10vh 0;
     border-bottom: 4px solid black;
 }
+.projects h1{
+    padding: 8vh 7vw 0;
+}
 .pro-cards{
-    width: 2800px;
+    width: 100%;
     height: auto;
+    padding: 0 7vw 1vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    overflow-x:scroll;
+}
+.pcs{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    flex-direction: column;
+}
+
+.pro-cards::-webkit-scrollbar{
+    width: 0;
 }
 .pro-card{
-    width: 650px;
+    min-width:clamp(350px, 50%, 650px);
     height: auto;
+    margin: 0 30px;
     background-color: #FFFFFF;
     border: 4px solid black;
-    box-shadow: 8px 8px;
+    box-shadow: 8px 8px ;
     display: flex;
     flex-direction: column;
+}
+.pc{
+    margin: 50px 0;
 }
 .pro-date{
     display: flex;
@@ -188,6 +207,7 @@ body{
     margin: 25px;
 }
 .pro-dec button{
+    justify-self: flex-end;
     width: 155px;
     height: 65px;
     margin-top: 20px;
@@ -198,21 +218,46 @@ body{
 
 /* blog start  */
 .blogs{
-     background-color: #FFFFFF;
+    background-color: #FFFFFF;
     background-size: 6px;
-    height: 100vh;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    padding: 150px 200px;
+    padding: 10vh 15vw 40vh;
     border-bottom: 4px solid black;
-    line-height: 1;
+    line-height: 1.2;
 }
 .blogs p{
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+}
+.blo-cards{
+    position: relative;
+}
+.bc1{
+    position: relative;
+    z-index: 0;
+}
+.bc2{
+    position: absolute;
+    z-index: 1;
+    top: 8vh;
+    left: 24vw;
+}
+.bc3{
+    position: absolute;
+    top: 25vh;
+    left: 5vw;
+    z-index: 2;
+}
+.bc4{
+    position: absolute;
+    top: 35vh;
+    left: 20vw;
+    z-index: 3;
 }
 .blo-card{
-    width: 800px;
+    width: clamp(250px, 60%, 800px);
     height: auto;
     background-color: #FFFFFF;
     border: 4px solid black;
@@ -260,6 +305,13 @@ body{
     background-color: #C4C4C4;
     border: 4px solid black;
 }
+.blnext button{
+    width: 100px;
+    height: 55px;
+    background-color: #C4C4C4;
+    border: 4px solid black;
+    margin: 0 20px;
+}
 .blo-dec p {
     margin: 0;
 }
@@ -277,7 +329,7 @@ body{
 /* hover hav  */
     .nav-link li a:hover, .icon-logo img:hover, 
     .btn-header:hover, .alinks:hover,.pro-dec button:hover,
-    .blo-btn button:hover{
+    .blo-btn button:hover, .blnext button:hover{
         background-color: black;
         color: #FFFFFF;
     }

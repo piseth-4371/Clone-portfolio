@@ -55,11 +55,12 @@
 /* projects  and blog*/
 .projects h1, .blogs h1{
     font-family: BalooThambi2-Bold;
-    font-size: 4.5rem;
+    font-size: clamp(4rem, 5vw, 4.5rem);
 }
 .blogs p a{
     font-family: BalooThambi2-Bold;
-    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 4vh, 1.2rem);
+    /* font-size: 1.2rem; */
     
 }
 .pro-date h4, .blo-date h4{
@@ -70,7 +71,7 @@
     font-family: BalooThambi2-Bold;
     font-size: 2.5rem;
 }
-.pro-dec p, .blo-dec p{
+.pro-dec p, .blo-dec p, .blnext, .blnext button{
     font-family: BalooThambi2-Medium;
     font-size: 1.3rem;
     line-height: 1.5; 
