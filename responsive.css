@@ -35,6 +35,9 @@
     .pheader{
         padding-bottom:10vh ;
     }
+    .header-img img{
+        margin-top: 5vh;
+    }
     /* .quicklinks h1, qlinks{
         width: 400px;   
     } */
@@ -61,8 +64,4 @@
         border-bottom: none;
     }
     
-}
-
-@media screen and (max-width: 576px) {
-
 }

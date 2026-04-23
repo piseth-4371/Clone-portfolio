@@ -57,6 +57,11 @@
     font-family: BalooThambi2-Bold;
     font-size: clamp(4rem, 5vw, 4.5rem);
 }
+.pd h1{
+    font-family: BalooThambi2-Bold;
+    font-size: clamp(4rem, 6vw, 5.5rem);
+    line-height: 1.3;
+}
 .blogs p a{
     font-family: BalooThambi2-Bold;
     font-size: clamp(0.8rem, 4vh, 1.2rem);
@@ -67,18 +72,22 @@
     font-family: BalooThambi2-Bold;
     font-size: 1.2rem;
 }
-.pro-dec h2, .blo-dec h2{
+.pro-dec h2, .blo-dec h2, .pd h3{
     font-family: BalooThambi2-Bold;
     font-size: 2.5rem;
 }
-.pro-dec p, .blo-dec p, .blnext, .blnext button{
+.pro-dec p, .blo-dec p, .blnext, .blnext a, .pd p{
     font-family: BalooThambi2-Medium;
     font-size: 1.3rem;
     line-height: 1.5; 
 }
-.pro-dec button, .blo-btn button, .blo-btn a{
+.pro-dec a, .blo-btn a, .blo-btn a,.pd a{
     font-family: BalooThambi2-Bold;
     font-size: 1.2rem;
+}
+.pd h4{
+     font-family: BalooThambi2-Bold;
+    font-size: 2.2rem;
 }
 
 
