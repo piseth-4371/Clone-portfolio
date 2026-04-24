@@ -1,0 +1,31 @@
+
+@keyframes navIn{
+    from{
+        transform: translateX(-10%) scale(0.8);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes boxIn{
+    from{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.pro-card, .blo-card{
+    animation: boxIn 0.8s ease-in-out ;
+    animation-timing-function: ease-in-out;
+}
+.nav-link a{
+    animation: navIn 0.5s ease-in-out ;
+    animation-timing-function: ease-in-out;
+}

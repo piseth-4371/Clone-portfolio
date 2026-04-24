@@ -63,5 +63,11 @@
     .a1, .a3{
         border-bottom: none;
     }
-    
+    .pc2{
+    width: auto;
+    padding: 1.5vh 5vw;
+    }
+    .nc a{
+    width: auto;
+    }   
 }
